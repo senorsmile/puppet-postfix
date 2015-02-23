@@ -88,6 +88,7 @@ class postfix::server (
   $smtp_content_filter = [],
   $smtps_content_filter = [],
   $submission = false,
+  $append_dot_mydomain = "yes",
   # EL5
   $submission_smtpd_enforce_tls = 'yes',
   # EL6
